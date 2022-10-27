@@ -1,0 +1,48 @@
+body {
+    background-color: #cce1f8;
+   
+
+}
+.Sigmund1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+.Sigmund2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 5px;
+}
+
+li {
+    display:inline;
+}
+
+.BloquePrincipal {
+    background-color: #89b1d6;
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+    height: 75vh;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: rgb(34, 33, 33);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
