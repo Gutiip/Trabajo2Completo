@@ -24,14 +24,6 @@ p {
     text-align: center;   
 }
 
-.Texto {
-    height: auto;
-    margin: 2rem auto;
-    width: 70%;
-    border: 2px solid gray;
-    padding: 10px; 
-    border-radius: 10px;
-}
 
 header {
     text-align: center;
@@ -65,7 +57,7 @@ h4 {
 
 .Cartel .card {
     width: 330px;
-    height: 430px;
+    height: 470px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0,2);
     overflow: hidden;
@@ -73,6 +65,27 @@ h4 {
     text-align: center;
 }
 
-.Cartel .card-body {
-    background-color: none;
+.Cartel2 {
+    width: 100%;
+    height: 430px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Cartel2 .card {
+    width: 330px;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0,2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.Cartel2 .card img {
+    width: auto;
+    height: 250px;
 }
